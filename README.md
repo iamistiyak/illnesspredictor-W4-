@@ -65,3 +65,13 @@ The dataset (toy_dataset.csv) contains historical data about people's characteri
 
 # Training the Model
 The dataset was pre-processed by encoding categorical variables (like City and Gender) using one-hot encoding and mapping the target variable Illness (Yes/No) into numeric values (1 for Yes, 0 for No). The model was trained using 80% of the data for training and 20% for testing.
+
+
+
+
+
+
+https://github.com/user-attachments/assets/c4c21a2d-39df-4a7f-8054-3ccbca3a12b6
+
+
+
