@@ -4,12 +4,12 @@
 **DATASET:**https://www.kaggle.com/datasets/carlolepelaars/toy-dataset <br><br><br><br>
 
 **Table of Contents:** 
-•Project Overview
-•Features
-•Tech Stack
-•Setup Instructions
-•How to Use
-•Model Details
+•Project Overview <br>
+•Features<br>
+•Tech Stack<br>
+•Setup Instructions<br>
+•How to Use<br>
+•Model Details<br>
 
 
 # Features
@@ -52,12 +52,20 @@ Results: The app displays the predicted illness probability with a success or er
 The prediction model is based on a Random Forest Classifier trained on a dataset with information about individuals' City, Gender, Age, and Income. The model outputs a probability value between 0 and 1, representing the likelihood that the user is at risk of the illness.
 
 # Dataset
-The dataset (toy_dataset.csv) contains historical data about people's characteristics and whether they had an illness or not. It was used to train the model. You can see a sample of this data below:
+The dataset (toy_dataset.csv) contains historical data about people's characteristics and whether they had an illness or not. It was used to train the model. You can see a sample of this data below: <br>
+
+City	Gender	Age	Income ($)	Illness
+City A	Male	34	40,000	Yes
+City B	Female	56	55,000	No
+City A	Female	23	30,000	Yes
+City C	Male	41	50,000	No
+City B	Male	62	60,000	Yes
 
 | City  |  Gender	|  Age |	Income  |	Illness  |
+| --- | ---  |  --- | --- |  ---  | 
 |  City A  |  Male  |	34  |	 40000  |	 Yes  |
 |  City B  |	Female  |56  |  55000  |  No  |
-|  City A  |  Female  |  23  |  30000  |  Yes  |
+|  City A  |  Female  |  23  |  30000  |  Yes  | <br><br><br><br>
 
 # Training the Model
 The dataset was pre-processed by encoding categorical variables (like City and Gender) using one-hot encoding and mapping the target variable Illness (Yes/No) into numeric values (1 for Yes, 0 for No). The model was trained using 80% of the data for training and 20% for testing.
