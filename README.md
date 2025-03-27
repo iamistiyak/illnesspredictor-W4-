@@ -61,11 +61,7 @@ City A	Female	23	30,000	Yes
 City C	Male	41	50,000	No
 City B	Male	62	60,000	Yes
 
-| City  |  Gender	|  Age |	Income  |	Illness  |
-| --- | ---  |  --- | --- |  ---  | 
-|  City A  |  Male  |	34  |	 40000  |	 Yes  |
-|  City B  |	Female  |56  |  55000  |  No  |
-|  City A  |  Female  |  23  |  30000  |  Yes  | <br><br><br><br>
+ <br><br><br><br>
 
 # Training the Model
 The dataset was pre-processed by encoding categorical variables (like City and Gender) using one-hot encoding and mapping the target variable Illness (Yes/No) into numeric values (1 for Yes, 0 for No). The model was trained using 80% of the data for training and 20% for testing.
