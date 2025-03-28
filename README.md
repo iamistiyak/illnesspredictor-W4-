@@ -11,6 +11,7 @@
 •Setup Instructions<br>
 •How to Use<br>
 •Model Details<br>
+•Use this model<br>
 
 
 # Features
@@ -66,6 +67,9 @@ The dataset (toy_dataset.csv) contains historical data about people's characteri
 # Training the Model
 The dataset was pre-processed by encoding categorical variables (like City and Gender) using one-hot encoding and mapping the target variable Illness (Yes/No) into numeric values (1 for Yes, 0 for No). The model was trained using 80% of the data for training and 20% for testing.
 
+# Use this model
+Anyone can install the dependencies using:
+pip install -r requirements.txt
 
 
 
