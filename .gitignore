@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+instance/
+*.log
+server
+illness_model.pkl
+echo "illness_model.pkl" >> .gitignore
